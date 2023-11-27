@@ -1,14 +1,19 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: `
+    <h1 class="text-center">
+      <span class="title">{{ title }}</span>
+      <p class="sub-title">{{ subtitle }}</p>
+    </h1>
+    `,
+  styles: [
+    '.title { color: #ee6e73;}',
+    '.sub-title { font-size: small; }'
+  ],
 })
 export class AppComponent {
-  title = 'ng2app';
+  title = 'Simple Todo';
+  subtitle = 'Angular2 + Django Rest Framework'
 }
