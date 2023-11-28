@@ -1,13 +1,14 @@
-import { NgModule }             from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 import { TodoListComponent }    from './components/todo-list.component';
 
-const routes: Routes = [
-  { path: '',  component: TodoListComponent }
+
+const routes: Routes = [ // 更新
+  { path: '', component: TodoListComponent },
 ];
+
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

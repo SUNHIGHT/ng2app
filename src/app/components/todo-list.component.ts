@@ -2,7 +2,7 @@ import { Component,Input } from '@angular/core';
 import { Router, ActivatedRoute, Params }   from '@angular/router';
 
 import { TodoService } from '../services/todo.services';
-import { Todo } from '../models/todo.model';
+import { Todo }  from '../models/todo.model';
 
 @Component({
   selector: 'todo-list',

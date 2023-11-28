@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
       <p class="sub-title">{{ subtitle }}</p>
     </h1>
     <router-outlet></router-outlet>
-    `,
+  `,
   styles: [
     '.title { color: #ee6e73;}',
     '.sub-title { font-size: small; }'
@@ -16,5 +16,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Simple Todo';
-  subtitle = 'Angular2 + Django Rest Framework'
+  subtitle = 'Angular2 + Django Rest Framework';
 }
