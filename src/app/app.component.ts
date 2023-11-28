@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
       <span class="title">{{ title }}</span>
       <p class="sub-title">{{ subtitle }}</p>
     </h1>
+    <router-outlet></router-outlet>
     `,
   styles: [
     '.title { color: #ee6e73;}',
