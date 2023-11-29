@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     <h1 class="text-center">
       <span class="title">{{ title }}</span>
       <p class="sub-title">{{ subtitle }}</p>
-    </h1>
+    </h1>ああああああ
     <router-outlet></router-outlet>
   `,
   styles: [
